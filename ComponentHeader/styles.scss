@@ -1,0 +1,179 @@
+a {
+	cursor: pointer;
+}
+
+.header-nav {
+	background-color: #002353 !important;
+}
+
+.navbar {
+	margin-bottom: 0;
+
+	.navbar-header {
+
+		 
+
+		> .navbar-brand {
+			padding: 10px 15px;
+			height: 50px;
+		}
+	}
+
+	.navbar-nav {
+
+		> li {
+
+			> a {
+				padding: 15px;
+			}
+		}
+	}
+
+	.navbar-inverse {
+
+		.nav {
+
+			> li {
+
+				> a:hover {
+					color: white;
+				}
+			}
+		}
+
+		.navbar-branddd {
+
+			padding: 10px 15px;
+			height: 50px;
+
+			&:hover {
+				color: #bfc9d8;
+			}
+		}
+
+		.nav-collapse {
+
+			.nav {
+
+				> li {
+
+					> a:hover {
+						color: #bfc9d8;
+
+					}
+				}
+			}
+
+			.open {
+
+				.dropdown-menu {
+
+					> li *:hover {
+						color: #bfc9d8;
+					}
+				}
+			}
+		}
+	}
+}
+
+.iticket-logo {
+	font-size: 32px;
+	font-weight: 700;
+	font-family: Roboto, sans-serif;
+}
+
+.profile-image {
+	border-radius: 50%;
+	margin-right: 10px;
+	height: 30px;
+	width: 30px;
+}
+
+.profile-image-lg {
+	border-radius: 50%;
+	margin-right: 10px;
+	margin-left: 15px;
+	height: 48px;
+	width: 48px;
+}
+
+.profile-header {
+	display: flex;
+	align-items: center;
+	padding: 10px 15px;
+	cursor: default;
+
+	.item-container {
+		margin-bottom: 0;
+		position: relative;
+	}
+
+	.profile-image {
+		margin-right: 10px;
+	}
+
+	.customer-name {
+
+		h3 {
+			margin: 12px 0 12px 0;
+		}
+	}
+
+	.profile-links {
+		margin-top: 7px;
+		margin-left: auto;
+	}
+}
+
+.portal_nav {
+	padding: 0 0 0 3px;
+}
+
+.portal_li {
+	border-right: solid 1px #fff;
+}
+
+#portal_dropdown {
+	padding: 0;
+}
+
+@media (max-width: 1199px) {
+
+	.profile-header {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+}
+
+.portal_nav-feedback {
+	color: white;
+}
+
+.mi.mi-feedback {
+	color: white;
+	padding-right: 2px;
+}
+.quickVote-logo {
+	color: white;
+}
+
+.portal_nav {
+	color: white;
+}
+
+.mi.mi-dashboard {
+	color:white;
+}
+
+.dropdown-toggle {
+	color:white;
+}
+.dropdown-toggle::after {
+	color:white;
+}
+.navbar-nav{
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
